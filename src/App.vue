@@ -55,6 +55,7 @@
  .wrapper{
      width: 100%;
      height: 100%;
+     background: #ecf0f1;
 }
 
 .container{
@@ -77,17 +78,31 @@
     max-width: 320px;
     height: 280px;
     width: 100%;
-    border: 2px solid #808080;
+    border: 2px solid #8e44ad;
     border-radius: 8px;
     cursor: pointer;
+    transform: scale(1.0);
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20px 10px rgba(34, 60, 80, 0.2);
+    transform: scale(0.9);
 }
 
 h3{
     font-size: 18px;
     margin-bottom: 15px;
+    transform: scale(1.0);
+    transition: 0.3s ease;
+    color: #8e44ad;
 }
 
 p{
     font-size: 14px;
+    transform: scale(1.0);
+    transition: 0.3s ease;
+    color: #8e44ad;
 }
+
 </style>
